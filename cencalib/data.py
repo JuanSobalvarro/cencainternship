@@ -15,7 +15,8 @@ class DataRetrieving:
         self._files: lk.TargetPixelFileCollection | None = None
         self._download_files()
 
-    def get_search(self) -> lk.SearchResult:
+    @property
+    def search(self) -> lk.SearchResult:
         return self._search
 
     def get_files(self) -> lk.TargetPixelFileCollection:

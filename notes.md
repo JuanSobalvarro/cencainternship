@@ -33,3 +33,22 @@ mareas
 
 # Aproximacion de trend
 - resttarlo a la curva total y ver como se comporta la curva de luz
+
+
+# investigation
+Asesor: Marco Laversveiler, Charles University
+
+Título: A light curve investigation of the triple system hypothesis in the Sh 2-71 planetary nebula
+
+Abstract:
+
+The multiplicity of central stars of planetary nebulae coupled with magnetic field interaction is the favorite hypothesis for the shaping of non-round planetary nebula (PN) morphologies. Regarding multiplicity, PN Sh 2-71 is a very interesting object. It has a detected variable component, which was suggested as likely a Be binary with a misaligned precessing disk, and another component that is a bluish faint star; possibly the ionization source, as has been proposed. To date, this object is one of the best candidates for a PN formed, and shaped, by the interaction of a triple stellar system. The orbital period of the binary component in Sh 2-71 is estimated to be of a few days, which makes it possible to study it from short- to medium-term time span data. The goal of this project is to investigate Sh 2-71 variability by retrieving light curves from the TESS mission database (and other potentially available databases) in order to relate it to the triple system hypothesis.
+
+División:  Division G – Stars and Stellar Physics
+
+
+# importante bibtex aprender a usar
+
+http://www.ita.br/posgrad/procseletivo
+https://prpg.usp.br/mestrado-e-doutorado/
+https://ic.ufrj.br/

@@ -38,7 +38,7 @@ class LightCurveProcessing:
         if method == Method.SAP:
             lc = file.to_lightcurve(aperture_mask=aperture_mask, flux_method=flux_method.value)
         elif method == Method.PLD:
-            lc = file.to_lightcurve(method="pld", aperture_mask=aperture_mask, background_aperture_mask="background")
+            lc = file.to_lightcurve(method="pld", aperture_mask=aperture_mask)
         elif method == Method.CBV:
             lc = file.to_lightcurve(method="cbv", aperture_mask=aperture_mask)
         else:
@@ -56,15 +56,15 @@ class LightCurveProcessing:
             data_file = self._data.get_bethesda_file()
 
         if method == Method.CBV:
-            return data_file.to_corrector(method="pld")
-        elif method == Method.PLD:
             return data_file.to_corrector(method="cbv")
+        elif method == Method.PLD:
+            return data_file.to_corrector(method="pld")
 
         raise ValueError(f"Invalid method: {method}")
 
     def get_aristoteles_lightcurve(self, method: Method = Method.SAP, aperture_mask: str = "default", flux_method: FluxMethod = FluxMethod.SUM) -> lk.lightcurve.LightCurve:
         file = self._data.get_aristoteles_file()
-        return self._get_lightcurve(file, method=method, aperture_mask=aperture_mask)
+        return self._get_lightcurve(file, method=method, aperture_mask=aperture_mask, flux_method=flux_method)
 
     def get_bethesda_lightcurve(self, method: Method = Method.SAP, aperture_mask: str = "default", flux_method: FluxMethod = FluxMethod.SUM) -> lk.lightcurve.LightCurve:
         file = self._data.get_bethesda_file()
