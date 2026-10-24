@@ -4,8 +4,45 @@ En este archivo detallo todo el trabajo hecho por mi durante mi pasantia en CENC
 ## Material Bibliográfico
 Fundamental Astronomy Sixth Edition Springer
 Observational Astrophysics Third Edition Springer
+https://ui.adsabs.harvard.edu/abs/1985A%26AS...59...63H/abstract
+https://ui.adsabs.harvard.edu/abs/1993A%26A...270..379C/abstract
+https://ui.adsabs.harvard.edu/abs/2022ascl.soft07007B/abstract
+https://arxiv.org/abs/astro-ph/0510649
+https://pyastronomy.readthedocs.io/en/latest/pyTimingDoc/pyPDMDoc/classes.html
+https://ui.adsabs.harvard.edu/abs/2007ASPC..361..469M/abstract
+https://arxiv.org/html/1602.05329v1
+https://www.aanda.org/articles/aa/pdf/2023/08/aa46162-23.pdf
+https://lightkurve.github.io/lightkurve/
+https://docs.astropy.org/en/stable/
+
 
 ## Reuniones
+Bootcamp de investigaciones cientificas, 22 de Julio 10 am a 1 pm 
+
+Segunda parte del Bootcamp, computational workshop miercoles 29 de Julio 10 am a 1 pm:
+-Introducción a ciencia computacional para astronomes
+-Usando Jypter Lab, tutoriales
+-Como usar Github
+
+Primer taller de diseño y formato de presentaciones. 21 de agosto de 8 am a 9:30 am
+
+Agosto 28 primera reunion de avances, de 4 pm a 5 pm
+
+Primer Social, power point party. 31 de agosto 8 am a 9:30 am
+
+Reunion urgente de llenado de formularios con Alia, 18 de septiembre 9 am a 10 am
+
+Segundo taller, comunicacion de ideas 22 de septiembre de 1 pm a 2 pm
+
+Segunda reunion de avances, 30 de septiembre de 1 pm a 2 pm
+
+Taller poster cientifico 12 de octubre 7 pm a 8 pm
+
+tercera reunion de avances, 21 de octubre 7 pm a 8 pm
+
+tercer social 29 de octubre 7 pm a 8 pm
+
+Todos los viernes reuniones de programacion de 3 a 4 pm
 
 
 ## Programación y herramientas utilizadas
@@ -13,9 +50,26 @@ Python
 lightkurve
 astropy
 pytiming
+jupyter notebooks
+canva
+google slides
+google docs
+overleaf
+numpy
+scipy
+git
+GitHub
 
 ## Tareas
-
+https://heasarc.gsfc.nasa.gov/docs/tess/Target-Pixel-File-Tutorial.html
+Astropy agregar PDM a metodos no parametricos de periodo
+Estudiar sobre binarias eclipsantes, efectos de marea y lidov kozai mechanism
+Estudiar que son las nebulosas planetarias y como se forman
+Estudiar sobre curvas de luz y su uso en astronomia
+Estudiar sobre los telescopios espaciales y su funcionamiento, en particular TESS
+Estudiar ruidos instrumentales y como afectan a las curvas de luz
+Estudiar sobre metodos de analisis periodico y como aplicarlos a curvas de luz
+Estudiar sobre metodos de limpieza de curvas de luz y como aplicarlos a curvas de luz
 
 ## Investigación semana a semana
 
@@ -74,5 +128,10 @@ Repasamos lo expuesto en la segunda presentacion de avances, y vimos que resulta
 
 ### Decimotercera semana (12 al 18 de Octubre)
 
-En esta semana revisamos como quedaron las graficas sin trens polinomicos y su respectivo analisis periodico, ahora seguiremos modularizando codigo, subirlo a github, documentacion, y ampliar la mascara de analisis del objeto. Ademas empiezo a preparar la presentacion de avances de la proxima semana.
+En esta semana revisamos como quedaron las graficas sin trends polinomicos y su respectivo analisis periodico, ahora seguiremos modularizando codigo, subirlo a github, documentacion, y ampliar la mascara de analisis del objeto. Ademas empiezo a preparar la presentacion de avances de la proxima semana.
 
+### Decimocuarta semana (19 al 25 de Octubre)
+
+Tercera y ultima presentacion de avances, Documentaciones del poster y resumen final. Estudie sobre como se analizan e interpretan comportamientos en curvas de luz.
+
+### Decimoquinta semana (26 de Octubre al 1 de Noviembre)
