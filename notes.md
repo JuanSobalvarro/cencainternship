@@ -52,3 +52,49 @@ División:  Division G – Stars and Stellar Physics
 http://www.ita.br/posgrad/procseletivo
 https://prpg.usp.br/mestrado-e-doutorado/
 https://ic.ufrj.br/
+
+
+# Comprension e hipotesis de los periodos encontrados
+- variabilidade del disco
+- eclipses
+- variabilidad de mareas
+- pulsaciones de las estrellas
+- efectos de transferéncia de massaz
+
+# tess julian date
+BTJD = BJD - 2457000.0
+
+# ubicar en que fecha esta esa variabilidad
+
+# Periodos segun cada uno
+period = theta
+
+## Aristoteles
+### Small Aperture
+11.39781895 = 0.45562195
+8.73832786 = 0.62747292
+7.28193988 = 0.70453246
+2.84945474 = 0.81424503
+5.69890947 = 0.83463618
+
+### Big Aperture
+11.39781895 = 0.43006596
+8.73832786 = 0.6363172
+7.48999531 = 0.70746509
+2.84945474 = 0.83393837
+5.69890947 = 0.85255295
+
+## Bethesda
+### Small Aperture
+7.34574751 = 0.82478371
+6.61117276 = 0.89312554
+3.67287376 = 0.9164735
+8.5305455 = 0.91759661
+11.01862127 = 0.91934953
+
+### Big Aperture
+7.34574751 = 0.86184930
+6.44992464 = 0.91040557
+3.67287376 = 0.92322336
+11.01862127 = 0.92621476
+8.5305455 = 0.92776065
