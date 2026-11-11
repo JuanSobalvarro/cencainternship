@@ -111,7 +111,7 @@ def fit_polynomial_trend(lc: Any, degree: int = 1) -> dict[str, np.ndarray]:
     coefficients = np.linalg.lstsq(
         np.vander(time, N=degree + 1, increasing=True), flux, rcond=None
     )[0]
-    fitted_values = np.polynomial.Polynomial(coefficients[::-1])(time)
+    fitted_values = np.polynomial.Polynomial(coefficients)(time)
     return {
         "coefficients": coefficients,
         "fitted_values": fitted_values,
