@@ -135,3 +135,10 @@ En esta semana revisamos como quedaron las graficas sin trends polinomicos y su 
 Tercera y ultima presentacion de avances, Documentaciones del poster y resumen final. Estudie sobre como se analizan e interpretan comportamientos en curvas de luz.
 
 ### Decimoquinta semana (26 de Octubre al 1 de Noviembre)
+En esta semana seleccione los periods mas confiables en base a los analisis de PDM, para esto tuve que estudiar extra los estudios de stellingwerf 1978 y estudiar estadistica. Ademas de empezar a escribir el resumen final de la pasantia y preparar el poster cientifico.
+
+### Decimosexta semana (2 al 8 de Noviembre)
+En esta semana sigo de escribiendo el paper/resumen incluyendo todas las interpretaciones de los resultados y conclusiones finales. Pero me adentro mas a la estadistica, sobre todo la parte de FAP y como calcularla para el metodo de PDM, ademas de que sigo preparando el poster cientifico.
+
+### Decimoséptima semana (9 al 15 de Noviembre)
+En esta semana termine todo el procesameinto de FAP y pude calcularlo para los periods mas confiables, ademas de que termine de escribir el resumen final de la pasantia y el poster cientifico.

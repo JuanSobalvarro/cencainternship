@@ -55,14 +55,19 @@ https://ic.ufrj.br/
 
 
 # Comprension e hipotesis de los periodos encontrados
-- variabilidade del disco
-- eclipses
-- variabilidad de mareas
-- pulsaciones de las estrellas
-- efectos de transferéncia de massaz
+- **Variabilidad del disco:** cambios en la densidad, geometría o precesión del disco de una estrella Be pueden producir señales cuasi-periódicas y amplitudes variables.
+- **Eclipses:** una ocultación orbital produce disminuciones repetibles; eclipses primarios y secundarios pueden tener profundidades diferentes.
+- **Variabilidad de mareas:** la deformación elipsoidal cambia el área proyectada de la estrella y puede producir dos máximos o mínimos por órbita.
+- **Pulsaciones estelares:** oscilaciones de la estrella pueden imitar una modulación orbital, especialmente cuando se observan pocos ciclos.
+- **Transferencia de masa:** un disco de acreción, una región caliente o cambios en el flujo de masa pueden producir modulación y armónicos.
+- **Efectos instrumentales:** deriva de apuntado, luz dispersa, cambios de foco, contaminación de fuentes vecinas y correcciones PLD o polinomiales imperfectas pueden dejar periodicidades residuales.
+
+Una periodicidad es más confiable si se mantiene entre aperturas, sectores, métodos de detrending y estrellas de referencia. Los períodos encontrados deben considerarse candidatos hasta descartar sistemáticos, armónicos y ruido correlacionado.
 
 # tess julian date
 BTJD = BJD - 2457000.0
+
+BJD es la fecha juliana corregida por el tiempo de viaje de la luz hasta el baricentro del Sistema Solar. BTJD no es una escala temporal nueva: es BJD con una constante restada para hacer los números más pequeños. La conversión inversa es BJD = BTJD + 2457000.0. Al calcular períodos mediante diferencias de tiempo, BJD y BTJD producen el mismo resultado; no se debe aplicar el offset dos veces y conviene conservar la escala temporal (por ejemplo, TDB).
 
 # ubicar en que fecha esta esa variabilidad
 
@@ -71,9 +76,9 @@ period = theta
 
 ## Aristoteles
 ### Small Aperture
-11.39781895 = 0.45562195
-8.73832786 = 0.62747292
-7.28193988 = 0.70453246
+11.39781895 = 0.45562195 #!
+8.73832786 = 0.62747292 #!
+7.28193988 = 0.70453246 #!
 2.84945474 = 0.81424503
 5.69890947 = 0.83463618
 
@@ -86,7 +91,7 @@ period = theta
 
 ## Bethesda
 ### Small Aperture
-7.34574751 = 0.82478371
+7.34574751 = 0.82478371 #!
 6.61117276 = 0.89312554
 3.67287376 = 0.9164735
 8.5305455 = 0.91759661
@@ -98,3 +103,29 @@ period = theta
 3.67287376 = 0.92322336
 11.01862127 = 0.92621476
 8.5305455 = 0.92776065
+
+# COnclusiones
+discusion sobre la relacion de 8 y 7 puede estar relacioando con la orbita y deformacion de marea
+
+para cada fenomeno importante mencionar por que puede existir o no en la curva de luz
+
+# statistic significance
+- FAP FAP FAP FAP
+
+# Facts about sh 2-71
+- The object is a planetary nebula (PN) with a complex morphology
+- It has a binary central star system (star A) without sufficient temperature to ionize the nebula
+- Likely the nebula progenitor is the star B
+- Gaia parallax put the star A at approximately 1.62 +- 0.1 kpc but the faintness of the star B makes it difficult to measure its parallax
+- The nebula is aproximately at 1.52 ± 0.54 kpc
+- Stars A and B are separated by 7.4 arcsec which corresponds to a minimum physical separation of 1.2 × 10^4 au at this distance.
+- The orbital period of star A (Paf) is a few days
+- Mocnik et al. ( ˇ 2015) concluded that the peculiar 68-d period photometric variability, analysed in detail by Mikula´sek et al. ( ˇ 2005, 2007), is the result of obscuration by a precessing disc on a longer period than PA, f.
+
+
+# About the presence of effects in light curves
+Once we have the light curves detrended (after cleaning and PLD), the plot even though it is "smooth" that structure could include periodic variability, correlated aperiodic variability or any remaining instrumental noise, and we cannot distinguish between them :/
+
+So, it is important to say that PDM can produce misleading minima from correlated noise, particularly at long periods relative to the observing baseline
+
+For that it could be necesary to include a null hypothesis test to determine the significance of the detected periods.
