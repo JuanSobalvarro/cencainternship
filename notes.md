@@ -129,3 +129,16 @@ Once we have the light curves detrended (after cleaning and PLD), the plot even 
 So, it is important to say that PDM can produce misleading minima from correlated noise, particularly at long periods relative to the observing baseline
 
 For that it could be necesary to include a null hypothesis test to determine the significance of the detected periods.
+
+
+# poster
+
+recordar poner en afiliaciones los paises de cada una arriba.
+
+# results
+histtype='step'
+lw=3
+
+# keywords
+
+binary star evolution, planetary nebula, sh 2-71, light curve analysis, TESS, non-parametric period search

@@ -13,3 +13,8 @@ uwu*
 __pycache__/
 FinalReport
 .analysis_runtime/
+
+full_methodology.md
+other_conclusions.md
+analysis_exports
+*.png
